@@ -1,0 +1,119 @@
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.color {
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    font-family: "Open Sans", serif;
+    
+
+}
+.logo {
+    margin-bottom: 40px;
+}
+.mockups {
+    margin-right: 100px;
+    width: 85%;
+}
+h1 {
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 20px;
+}
+.btn {
+    color: hsl(257, 40%, 49%);
+}
+i {
+    color: #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 1px solid #fff;
+    float: right;
+    margin: 20px;
+    padding:10px;
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+    .color {
+        background-image: url(./images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+        background-color: hsl(257, 40%, 49%);
+        color: #fff;
+        font-family: "Open Sans", serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+   
+    .logo {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mockups {
+        margin-right: 100px;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn {
+        color: hsl(257, 40%, 49%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .btn:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        background-color: hsl(300, 69%, 71%) !important;
+    }
+    i {
+        color: #fff;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        border: 1px solid #fff;
+        
+        margin: 20px 20px 20px 60px;
+        padding:10px;
+        font-size: 20px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+i:hover {
+    cursor: pointer;
+        transform: scale(1.6);
+        background-color: hsl(300, 69%, 71%) !important;
+}
+
+}
